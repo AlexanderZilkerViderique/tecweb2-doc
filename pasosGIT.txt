@@ -1,0 +1,14 @@
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+echo "# tecweb2-doc" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/AlexanderZilkerViderique/tecweb2-doc.git
+git push -u origin main
+
+git remote add origin https://github.com/AlexanderZilkerViderique/tecweb2-doc.git
+git branch -M main
+git push -u origin main
